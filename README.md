@@ -62,3 +62,10 @@ You can also see if it loaded by going to your force feedback overall gain setti
 ![Exclamation mark picture](https://github.com/Ardaninho/aclut2ets2lut/blob/main/res/exclmark.png?raw=true)
 ### Complete
 Now your LUT file should be working. Your FFB will feel smoother than normally. Happy trucking!
+
+### Credits
+[iRacing for their WheelCheck program](https://www.iracing.com/)
+
+[Anis on Overtake.gg for the LUT generator](https://www.overtake.gg/downloads/lut-generator-for-ac.9740/)
+
+[SCS Software about LUT usage in ETS2/ATS](https://modding.scssoft.com/wiki/Documentation/Engine/Advanced_input_configuration/Force_feedback_LUT#Usage)
