@@ -2,7 +2,9 @@
 ## A LUT to ETS2 LUT generator/converter
 ### Requirements
 - [Python 3](https://www.python.org/downloads/) (click on the latest version)
-### Before using the script...
+
+  !! When installing Python, make sure to enable "Add Python to environment variables" !!
+  ### Before using the script...
 You will ask, how do I create a LUT file?
 
 This guide will show how you can create a LUT file.
