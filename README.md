@@ -1,7 +1,41 @@
 # aclut2ets2lut
 ## A LUT to ETS2 LUT generator/converter
 ### Requirements
-- [Python 3](https://www.python.org/downloads/)
+- [Python 3](https://www.python.org/downloads/) (click on the latest version)
+### Before using the script...
+You will ask, how do I create a LUT file?
+
+This guide will show how you can create a LUT file.
+
+Extract `wheelcheck_and_lutgenerator.zip` into the/a folder.
+
+Open `WheelCheck.exe`. You will get this dialogue.
+
+![WheelCheck dialogue](https://github.com/Ardaninho/aclut2ets2lut/blob/main/res/wheelcheckdialog.png?raw=true)
+
+Set the `Max Count` value to `100`
+
+![Max Count](https://github.com/Ardaninho/aclut2ets2lut/blob/main/res/maxforce.png?raw=true)
+
+Then to start the test, set `Spring Force` to `Step Log 2 (linear force test)`
+
+!! MAKE SURE YOU CENTER YOUR WHEEL BEFORE DOING THE TEST! !!
+
+![Step Log Test](https://github.com/Ardaninho/aclut2ets2lut/blob/main/res/test%20steplog.png?raw=true)
+
+!! DO NOT TOUCH YOUR WHEEL, DO NOT TOUCH THE APP UNTIL `Spring Force` IS SET BACK TO `Disabled`! !!
+
+[![Video of test](https://img.youtube.com/vi/BpOuInXHJP0/0.jpg)](https://www.youtube.com/watch?v=BpOuInXHJP0)
+
+A `.csv` file should appear in your User Documents (`C:\Users\user\Documents`) with the following name: `log2 <the date when the file is generated>.csv`
+
+Now open `LUTGenerator.exe`. Open the CSV file that is in Documents.
+
+A save dialog will appear that tells you where to save the `.lut` file to. Specify it to the directory where the `aclut2ets2lut.py` is located.
+
+It will save and you will see the output graph. You can quit the program.
+
+Now you have a LUT file! Continue to using the script.
 ### How to use this script?
 #### Convert LUT file
 Put your LUT file into the directory.
@@ -25,6 +59,6 @@ When you load your specific profile with the LUT file, in the main menu, open th
 
 You can also see if it loaded by going to your force feedback overall gain settings and seeing a red exclamation mark (see beneath picture).
 
-![Exclamation mark picture](https://github.com/Ardaninho/aclut2ets2lut/blob/main/exclmark.png?raw=true)
+![Exclamation mark picture](https://github.com/Ardaninho/aclut2ets2lut/blob/main/res/exclmark.png?raw=true)
 ### Complete
 Now your LUT file should be working. Your FFB will feel smoother than normally. Happy trucking!
