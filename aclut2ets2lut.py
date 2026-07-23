@@ -5,7 +5,6 @@ print("aclut2ets2lut.py - a LUT to ETS2-specific LUT generator\nProject link: ht
 if len(sys.argv) != 2:
     print("Usage: python aclut2ets2lut.py <siifile>")
     print("This script will open the input SII file, make a new file called ffb_lut.sii and write the ETS2 specific code for the SII.")
-    print("Code made by Ardaninho")
     sys.exit(1)
 
 input_filename = sys.argv[1]
