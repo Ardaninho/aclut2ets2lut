@@ -1,7 +1,10 @@
+# Copyricht (C) 2026 Ardaninho
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 import sys
 import os
 
-print("aclut2ets2lut.py - a LUT to ETS2-specific LUT generator\nProject link: https://github.com/Ardaninho/aclut2ets2lut \nPlease report bugs to our project link!\n")
+print("aclut2ets2lut.py - a LUT to ETS2-specific LUT generator\nProject link: https://github.com/Ardaninho/aclut2ets2lut \nPlease report bugs to our project link!\nCopyright (C) 2026 Ardaninho\n")
 if len(sys.argv) != 2:
     print("Usage: python aclut2ets2lut.py <siifile>")
     print("This script will open the input SII file, make a new file called ffb_lut.sii and write the ETS2 specific code for the SII.")
